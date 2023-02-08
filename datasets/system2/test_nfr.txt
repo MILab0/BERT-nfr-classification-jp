@@ -1,0 +1,17 @@
+label,feature
+A,Out of 1000 accesses to the system the system is available 999 times.
+FT,The product shall operate in offline mode whenever internet connection is unavailable.
+FT,The product shall allow the user to view previously downloaded search results CMA reports and appointments.
+FT,The product shall retain user preferences in the event of a failure.
+FT,100% of saved user preferences shall be restored when system comes back online.
+SC,The product shall be able to support multiple remote users
+SC,The product shall be able support 1000 simultaneous users.
+SC,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.
+US,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.
+US,90% of untrained realtors shall be able to install the product on their device without printed instructions
+PO,The product is expected to run on Windows CE and Palm operating systems.
+SE,Only registered realtors shall be able to access the system.
+SE,Every user of the system shall be authenticated and authorized.
+SE,The product shall prevent its data from incorrect data being introduced.
+US,The system shall be easy to use by the Program Administrators/Nursing Staff Members.
+US,All of the users shall be able to use the system after one day of training.

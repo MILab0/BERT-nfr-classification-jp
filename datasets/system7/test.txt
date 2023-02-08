@@ -1,0 +1,24 @@
+label,feature
+PE,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.
+PE,The System shall allow for a minimum of 6 users to work at the same time.
+O,The System shall utilize currently owned computer equipment.
+O,The System shall be able to automatically backup business data and restore them on demand.
+SE,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.
+SE,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.
+L,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.
+O,The System shall not require additional third party licenses resulting in royalty fees.
+F,The System shall allow generation of Inventory Quantity Adjustment documents on demand.
+F,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.
+F,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.
+F,The System shall allow entering storing and modifying product formulas.
+F,Product formulas shall allow use of semi-products which have own formulas.
+F,Product formula ingredients shall allow defining substitutionary ingredients.
+F,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.
+F,Formula substitutionary ingredients shall be kept in persisted order
+F,Product shall allow entering storing and modifying product menus used by POS terminals.
+F,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.
+F,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.
+F,PME Subsystem shall allow for a product to exist in more than one submenu
+F,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.
+F,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.
+F,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.

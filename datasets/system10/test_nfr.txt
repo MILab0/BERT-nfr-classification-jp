@@ -1,0 +1,18 @@
+label,feature
+LF,The product shall simulate the look of ships at sea.
+LF,The product shall display the grids within a circle as a view from a periscope.
+LF,The product shall display each type of ship in a grid using an image of the specific type of ship.
+LF,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.
+LF,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.
+LF,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.
+LF,When a ship is sunk the product shall simulate the sound of a sinking ship.
+A,The product shall be available 24 hours per day seven days per week.
+PE,The product shall able to handle a large number of games simultaneously.
+PE,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.
+PE,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.
+US,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.
+US,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.
+SE,The product shall provide players no access to information that might reveal the identity of another player
+PE,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.
+US,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.
+US,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.

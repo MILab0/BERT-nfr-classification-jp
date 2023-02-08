@@ -1,0 +1,9 @@
+label,feature
+PE,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.
+PE,The System shall allow for a minimum of 6 users to work at the same time.
+O,The System shall utilize currently owned computer equipment.
+O,The System shall be able to automatically backup business data and restore them on demand.
+SE,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.
+SE,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.
+L,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.
+O,The System shall not require additional third party licenses resulting in royalty fees.

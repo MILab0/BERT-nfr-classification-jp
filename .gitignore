@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+lib/__pycache__/
+lightning_logs/
+model/
+model_ml/
+model_transformers/
+model_transformers_ml/
+*.xlsx
