@@ -37,6 +37,14 @@ BERTの事前学習モデルを変更するには ``MODEL_NAME`` の値を編集
 - ``--convert_model`` : 拡張子が.ckptのモデルをpytorchが直接読み込める形式に変換します．例: ``--convert_model path/to/ckpt `` "nfr_classifier_multi-v2.py"のみで使えるオプションです．
 - ``--merge_checkpoint`` : (experimental) model_ml/以下にあるチェックポイントの重みを平均化したモデルを生成します．正しく動かないかもしれません．"nfr_classifier_multi-v2.py"のみで使えるオプションです．
 
+## 実行結果について  
+
+プログラムを実行すると以下のファイルが生成されます．
+- classification_result_ml.xlsx : デバッグ用のファイルです．分類結果と正解ラベル，スコアの詳細などが書かれたエクセルシートです．
+- classification_analysys_ml.xlsx : 非機能要求レポートのエクセルシートです．定量要約の結果などが含まれます．
+- model_ml/XXX.ckpt : pytorch lightningライブラリで読み込めるファインチューニング済みモデルです．
+- model_transformers_ml/ : (v2のみ)pytorchライブラリで読み込めるファインチューニング済みモデルです．
+
 ## issue
-- nfr_classifier_multi_shap.ipynbでSHAPの可視化結果を全て表示しようとすると，ファイルが破損してしまうバグがあります．現状では数10件の結果を表示後にCtrl+Cで実行を中断してください．
+- nfr_classifier_multi_shap.ipynbでSHAPの可視化結果を全て表示しようとすると，ファイルが破損してしまうバグがあります．現状では数十件の結果を表示後にCtrl+Cで実行を中断してください．
 - v2と適用評価で用いたプログラムでは精度に違いが生じます．v2では閾値``THRESHOLD``の調整が必要となります．
