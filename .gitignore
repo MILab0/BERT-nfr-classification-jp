@@ -6,4 +6,4 @@ model/
 model_ml/
 model_transformers/
 model_transformers_ml/
-*.xlsx
+./*.xlsx
